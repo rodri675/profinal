@@ -1,0 +1,135 @@
+*::selection {
+    background-color: #550101;
+    color: white;
+}
+
+*::-moz-selection {
+    background-color: #550101;
+    color: white;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #550101;
+    border-top-left-radius: 20px;
+}
+
+body {
+    background: #f09090;
+    font-family: Arial;
+    font-size: 11px;
+    width: 1200px;
+    margin: auto;
+}
+
+#imagenlogo {
+    background: url(../imagenes/logo1.webp) no-repeat left;
+    background-size: 30%;
+    padding: 20em 0em 0em 0em;
+    text-transform: uppercase;
+}
+
+#imagenlogo h1 a {
+    margin-left: 850px;
+    padding: 0em 0em 0em 0em;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+    color: #af3636;
+}
+
+#subtitulo {
+    padding: 0em;
+    margin-left: 950px;
+    font-size: 2em;
+    color: #aa1c1c;
+}
+
+.navegacion {
+    width: 1230px;
+    margin: 3px auto;
+    background: #550101;
+}
+
+.navegacion ul {
+    list-style: none;
+}
+
+.menu>li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu>li>a {
+    display: block;
+    padding: 15px 20px;
+    color: #fdfcfc;
+    font-family: tahoma;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #f87d7d;
+    transition: all .3s;
+}
+
+#seccion {
+    width: 1150px;
+    padding: 20px 40px;
+    background: #FFF;
+    height: 520px;
+}
+
+#imagen {
+    margin-top: 0em;
+    margin-left: 320px;
+    width: 330px;
+    height: 250px;
+    text-align: center;
+}
+
+#subtitulo2 {
+    font-family: tahoma, Geneva, sans-serif;
+    font-size: 30px;
+    color: #030303;
+}
+
+footer {
+    width: 100%;
+    float: right;
+    background-color: #550101;
+    color: #fff;
+    display: flex;
+    padding: 20px;
+    font-size: 1.4em;
+    box-sizing: border-box;
+}
+
+footer p {
+    margin: auto;
+    font-family: tahoma;
+    transition: all 300ms ease-in-out;
+}
+
+footer p:hover {
+    color: aliceblue;
+    text-shadow: 0 0 3px aliceblue;
+    transition: all 300ms ease-in-out;
+}
+section>p {
+    font-family: tahoma;
+    font-size: 14pt;
+    color: black;
+}
+
+a {
+    font-family: tahoma;
+    font-size: 14pt;
+}

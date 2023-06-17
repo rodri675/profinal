@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+* {
+    cursor: url(https://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), auto !important;
+}
+
+*::selection {
+    background-color: #500303;
+    color: white;
+}
+
+*::-moz-selection {
+    background-color: #500303;
+    color: white;
+}
+
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #500303;
+    border-top-left-radius: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #e6e6e6;
+    font-size: 16px;
+    line-height: 1.4em;
+    color: #610404;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.cuerpo {
+    clear: both;
+    padding: 0;
+    margin: 0;
+}
+
+.contenido {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+}
+
+.publicaciones {
+    width: 64.6%;
+}
+
+.lateral {
+    width: 32.2%;
+}
+
+header {
+    max-width: 100%;
+    background-color: inherit;
+    padding: 20px;
+}
+
+nav {
+    width: 100%;
+    margin-bottom: 1em;
+    background-color: #500303;
+}
+
+.logo {
+    width: 420px;
+    display: block;
+    margin: auto;
+    transform: scale(1.3);
+    transition: all 300ms ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.5);
+    transition: all 200ms ease-in-out;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    transition: max-height 0.5s;
+}
+
+.opt {
+    display: inline-block;
+    padding: 20px;
+    font-size: 1.2em;
+    transition: all 0.3s ease-in-out;
+}
+
+.opt:hover {
+    transform: scale(1.15);
+    transition: all 0.3s ease-in-out;
+}
+
+.opt a:hover {
+    cursor: url(https://cur.cursors-4u.net/cursors/cur-11/cur1049.cur), auto !important;
+}
+
+.barra {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #500303;
+    text-align: left;
+    padding: 15px 20px;
+    color: #fff;
+    font-size: 1.4em;
+    display: none;
+}
+
+.cont {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+}
+
+.pub {
+    background: #fff;
+    margin: 0 auto 2em auto;
+    padding: 35px 30px;
+}
+
+.cuerpolat {
+    background-color: #fff;
+    margin: 0 auto 1.5em auto;
+    width: 20em;
+    padding: 20px;
+}
+
+.pub {
+    font-size: 1em;
+    border-left: 5px solid #e80c0c;
+    padding-left: 15px;
+}
+
+.contelat {
+    font-size: 0.9em;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.titulo {
+    font-weight: 500px;
+    font-size: 2.5em;
+    margin-top: 5px;
+}
+
+.fecha {
+    font-size: 1em;
+    font-weight: 400;
+    color: #b4b3b3;
+    margin-top: -10px;
+}
+
+.btn {
+    display: block;
+    padding: 15px 20px;
+    margin-top: 0.8em;
+    background-color: #5c0606;
+    text-align: center;
+    color: #fff;
+    font-size: 1.4em;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #bd4444;
+    cursor: url(https://cur.cursors-4u.net/cursors/cur-11/cur1049.cur), auto !important;
+    transition: all 0.2s ease-in-out;
+}
+
+footer {
+    width: 100%;
+    float: right;
+    background-color: #420303;
+    color: #fff;
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer p {
+    margin: auto;
+    transition: all 300ms ease-in-out;
+}
+
+footer p:hover {
+    color: aliceblue;
+    text-shadow: 0 0 3px aliceblue;
+    transition: all 300ms ease-in-out;
+}
+
+@media screen and (max-width: 56.25em) {
+
+    .publicaciones {
+        margin: 1% 0 1% 0;
+    }
+
+    .publicaciones,
+    .lateral {
+        width: 100%
+    }
+
+    .cuerpolat {
+        width: 42%;
+        float: left;
+        margin: -2% 0 1% 1.6%;
+    }
+
+}
+
+@media screen and(max-width: 42.813em) {
+
+    .cuerpolat {
+        width: auto;
+        padding: 15px;
+        margin: -2% auto 8% auto;
+    }
+
+    .titulo {
+        font-size: 1.95em;
+    }
+
+    .fecha {
+        font-size: 0.9em;
+    }
+
+}
+
+@media screen and (max-width: 30em) {
+
+    nav ul {
+        max-height: 0;
+    }
+
+    .reveal {
+        max-height: 19em;
+    }
+
+    nav ul .opt {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .barra {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 23.75em) {
+
+    .cont,
+    .post-link {
+        font-size: 0.9em;
+    }
+
+    .contelat {
+        font-size: 0.8em;
+    }
+
+    .btn {
+        padding: 10px 15px;
+    }
+
+    .opt {
+        font-size: 1.2em;
+    }
+
+}
